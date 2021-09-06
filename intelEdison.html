@@ -1,162 +1,261 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html>
-	<head>
-		<title>Goan FPV</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Goan FPV</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <!-- Header -->
+          <header id="header">
+            <a href="index.html" class="logo"
+              ><strong>Interesting projects with the Intel Edison</strong></a
+            >
+          </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+          <!-- Content -->
+          <section>
+            <header class="main">
+              <h1>Intel Edison</h1>
+            </header>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
+            <p>
+              The Intel Edison is a computer-on-module that was offered by Intel
+              as a development system for wearable devices and Internet of
+              Things devices. The system was initially announced to be the same
+              size and shape as an SD card and containing a dual-core Intel
+              Quark x86 CPU at 400 MHz communicating via Bluetooth and Wi-Fi.
+            </p>
+            <p>
+              Intel Edison Kit for Arduino provides the Arduino 1.0 pinout and
+              standard connectors such as a micro USB connected to a UART, a USB
+              OTG port that can be switched between a second micro USB device
+              connector, a standard size USB host Type-A connector, a USD
+              cardholder, and a DC power jack. Like an Arduino Uno, the Intel
+              Edison Kit for Arduino makes it possible to have 20 digital
+              input/output pins, of which 6 can be used as analog inputs. The
+              Intel Edison has 4 PWM outputs which can be configured via jumpers
+              to any of the 6 pins supporting PWM on the Arduino Uno (pins 3, 5,
+              6, 9, 10, or 11). The Intel Edison Kit for Arduino is designed to
+              be a hardware and software pin-compatible with Arduino shields
+              designed for the Arduino Uno R3. Digital pins 0 to 13 (and the
+              adjacent AREF and GND pins), Analog inputs 0 to 5, the power
+              header, ICSP header, and the UART port pins (0 and 1), are all in
+              the same locations as on the Arduino Uno R3.
+            </p>
+            <p>Check out some of our projects/custom builds to get inspired.</p>
+          </section>
 
-							<!-- Header -->
-								<header id="header">
-									<a href="index.html" class="logo"><strong>Interesting projects with the Intel Edison</strong></a>
-								</header>
+          <!-- projects -->
+          <section>
+            <header class="major">
+              <h2>Projects</h2>
+            </header>
+            <div class="posts">
+              <article>
+                <a class="image"
+                  ><img src="images/1enviromentalRover.jpg" alt=""
+                /></a>
+                <h3>Environmental Monitoring Rover</h3>
+                <p>
+                  This project is inspired by the Mars Curiosity Rover, I don't
+                  expect this rover to make it to Mars! but you can mimic it and
+                  implement some cool features using the Intel Edison board.
+                  Having said that, on mother Earth you can find industrial
+                  applications for this, to monitor hazardous conditions.
+                </p>
 
-							<!-- Content -->
-								<section>
-									<header class="main">
-										<h1>Intel Edison</h1>
-									</header>
+                <ul class="actions">
+                  <li>
+                    <a
+                      href="https://www.instructables.com/Environmental-Monitoring-Rover/"
+                      class="button"
+                      >Read More</a
+                    >
+                  </li>
+                </ul>
+              </article>
+              <article>
+                <a class="image"
+                  ><img src="images/2plantMonitoring.jpg" alt=""
+                /></a>
+                <h3>Plant Monitoring and Care</h3>
+                <p>
+                  Follow this project to monitor and create an auto control
+                  plant watering system for your house plants. Monitor the
+                  following environmental variables using Xively.com to keep
+                  your plants healthy through the summer/winter season
+                </p>
+                <ul class="actions">
+                  <li>
+                    <a
+                      href="https://www.instructables.com/Plant-monitoring-and-care-using-the-Intel-Edison/"
+                      class="button"
+                      >Read More</a
+                    >
+                  </li>
+                </ul>
+              </article>
+              <article>
+                <a class="image"
+                  ><img src="images/3caynnneDashboard.jpg" alt=""
+                /></a>
+                <h3>Posting sensor data to Cayenne</h3>
+                <p>
+                  When I attended Makerfaire Bay Area, California, a couple of
+                  years ago, I heard a talk by the folks at myDevices, who build
+                  an IoT platform called– Cayenne, which has an online IoT
+                  dashboard that takes most of the complication out of creating
+                  hardware-oriented programming, originally it worked with just
+                  the Raspberry Pi and is now available for the Arduino as well.
+                  In addition, you also have a feature where you can use MQTT to
+                  post sensor data to the Cayenne IoT dashboard, this means we
+                  can use Intel Edison to post sensor data as shown in the
+                  picture above. For more info about Cayenne check out the
+                  documentation at https://mydevices.com/cayenne/docs/
+                </p>
+                <ul class="actions">
+                  <li>
+                    <a
+                      href="https://www.element14.com/community/community/design-challenges/upcycleit/blog/2017/05/26/upcycled-clock-posting-sensor-data-to-cayenne"
+                      class="button"
+                      >Read More</a
+                    >
+                  </li>
+                </ul>
+              </article>
+              <article>
+                <a class="image"
+                  ><img src="images/4circuitSidebySide.jpg" alt=""
+                /></a>
+                <h3>Upcycle an Old Clock</h3>
+                <p>
+                  We have an old clock, the idea here is to upcycle the clock
+                  and add some smart capabilities to it using the Intel Edison.
+                  Read more about this award-winning project.
+                </p>
+                <ul class="actions">
+                  <li>
+                    <a
+                      href="https://www.element14.com/community/community/design-challenges/upcycleit/blog/2017/06/03/upcycled-clock-summary"
+                      class="button"
+                      >Read More</a
+                    >
+                  </li>
+                </ul>
+              </article>
+            </div>
+          </section>
+        </div>
+      </div>
 
-									<p>The Intel Edison is a computer-on-module that was offered by Intel as a development system for wearable devices and Internet of Things devices. The system was initially
-										announced to be the same size and shape as an SD card and containing a dual-core Intel Quark x86 CPU at 400 MHz communicating via Bluetooth and Wi-Fi.</p>
-									<p>Intel Edison Kit for Arduino provides the Arduino 1.0 pinout and standard connectors such as a micro USB connected to a UART,
-										a USB OTG port that can be switched between a second micro USB device connector, a standard size USB host Type-A connector, a USD card holder, and a DC power jack. Like an Arduino Uno,
-										the Intel Edison Kit for Arduino makes possible to have 20 digital input/output pins, of which 6 can be used as analog inputs. The Intel Edison has 4 PWM outputs which can be configured via jumpers to any of the 6 pins supporting PWM on the Arduino Uno (pins 3, 5, 6, 9, 10, or 11).
-                    The Intel Edison Kit for Arduino is designed to be a hardware and software pin-compatible with Arduino shields designed for the Arduino Uno R3. Digital pins 0 to 13 (and the adjacent AREF and GND pins),
-                    Analog inputs 0 to 5, the power header, ICSP header, and the UART port pins (0 and 1), are all in the same locations as on the Arduino Uno R3.</p>
-									<p>Check out some of our projects/custom builds to get inspired.</p>
-							</section>
+      <!-- Sidebar -->
+      <div id="sidebar">
+        <div class="inner">
+          <!-- Menu -->
+          <nav id="menu">
+            <header class="major">
+              <h2>Goan FPV</h2>
+            </header>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li>
+                <span class="opener">Training/Workshops</span>
+                <ul>
+                  <li>
+                    <a href="3DPrinting.html#3DprintTraining">3D Printing</a>
+                  </li>
+                  <li>
+                    <a href="raspberryPi.html#piTraining">Raspberry Pi</a>
+                  </li>
+                  <li>
+                    <a href="arduino.html#arduinoTraining"
+                      >Basic Electronics with Arduino</a
+                    >
+                  </li>
+                  <li>
+                    <a href="iot.html#iotTraining"
+                      >IoT(Internet of Things) with ESP8266</a
+                    >
+                  </li>
+                  <li><a href="robotics.html#roboticsTraining">Robotics</a></li>
+                </ul>
+              </li>
+              <li><a href="3DPrinting.html">3D Printing</a></li>
+              <li><a href="raspberryPi.html">Raspberry Pi</a></li>
+              <li><a href="arduino.html">Arduino</a></li>
+              <li><a href="robotics.html">Learn Robotics</a></li>
+              <li><a href="iot.html">IoT(Internet of Things)</a></li>
+              <li><a href="drones.html">Drones/FPV</a></li>
+              <li>
+                <span class="opener">Other Boards/Sensors</span>
+                <ul>
+                  <li><a href="intelEdison.html">Intel Edison</a></li>
+                  <li><a href="beaglebone.html">Beaglebone</a></li>
+                  <li><a href="esp8266.html">ESP8266 and ESP32</a></li>
+                </ul>
+              </li>
 
-							<!-- projects -->
-							<section>
-								<header class="major">
-									<h2>Projects</h2>
-								</header>
-								<div class="posts">
-									<article>
-										<a class="image"><img src="images/1enviromentalRover.jpg" alt="" /></a>
-										<h3>Environmental Monitoring Rover</h3>
-										<p>This project is inspired by the Mars Curiosity Rover, I don't expect this rover to make it to Mars! but you can mimic it and implement some cool features using the Intel Edison board. Having said that ,on mother
-											 Earth you can find industrial applications for this, to monitor hazardous condition. </p>
+              <li><a href="machineLearning.html">Machine Learning</a></li>
+              <li>
+                <a href="#" class="button primary large">Enroll for Training</a>
+              </li>
+            </ul>
+          </nav>
 
-										<ul class="actions">
-											<li><a href="https://www.instructables.com/Environmental-Monitoring-Rover/" class="button">Read More</a></li>
-										</ul>
-									</article>
-									<article>
-										<a class="image"><img src="images/2plantMonitoring.jpg" alt="" /></a>
-										<h3>Plant Monitoring and Care</h3>
-										<p>Follow this project to monitor and create an auto control plant watering system for your house plants. Monitor the following environmental variables using Xively.com to keep your plants healthy through the summer/winter season</p>
-										<ul class="actions">
-											<li><a href="https://www.instructables.com/Plant-monitoring-and-care-using-the-Intel-Edison/" class="button">Read More</a></li>
-										</ul>
-									</article>
-									<article>
-										<a class="image"><img src="images/3caynnneDashboard.jpg" alt="" /></a>
-										<h3>Posting sensor data to Cayenne</h3>
-										<p>When I attended Makerfaire Bay Area, California, a couple of years ago , I heard a talk by the folks at myDevices, who build an IoT platform called– Cayenne,
-											 which has an online IoT dashboard that takes most of the complication out of creating hardware-oriented programming, originally it worked with just the Raspberry Pi, and is now available for the Arduino as well.
-											 In addition, you also have a feature where you can use MQTT to post sensor data to Cayenne IoT dashboard, this means we can use the Intel Edison to post sensor data as shown in the picture above. For more info about Cayenne check out the documentation at https://mydevices.com/cayenne/docs/</p>
-										<ul class="actions">
-											<li><a href="https://www.element14.com/community/community/design-challenges/upcycleit/blog/2017/05/26/upcycled-clock-posting-sensor-data-to-cayenne" class="button">Read More</a></li>
-										</ul>
-									</article>
-									<article>
-										<a class="image"><img src="images/4circuitSidebySide.jpg" alt="" /></a>
-										<h3>Upcycle an Old Clock</h3>
-										<p>We have an old clock, the idea here is to upcycle the clock and add some smart capabilities to it using the Intel Edison. Read more about this award winning project.. </p>
-										<ul class="actions">
-											<li><a href="https://www.element14.com/community/community/design-challenges/upcycleit/blog/2017/06/03/upcycled-clock-summary" class="button">Read More</a></li>
-										</ul>
-									</article>
+          <!-- Section -->
+          <section>
+            <header class="major">
+              <h2>Get in touch</h2>
+            </header>
+            <p>
+              To enroll for a Workshop/Training, click the Enroll button above
+              to fill the form, and we will email you as soon as a Workshop is
+              scheduled. But if you want to get in touch, here is the fastest
+              way ..
+            </p>
+            <ul class="contact">
+              <li class="icon solid fa-envelope">
+                <a href="mailto: goanFPV@gmail.com">goanFPV@gmail.com</a>
+              </li>
+              <li class="icon brands fa-whatsapp">
+                <a href="tel:+919422445498">Zena (942) 244-5498</a>
+              </li>
+              <li class="icon solid fa-sms">
+                <a href="sms:+918275330628">(827) 533-0628</a>
+              </li>
+              <li class="icon solid fa-home">Margao, Goa, India</li>
+            </ul>
+          </section>
 
-								</div>
-							</section>
+          <!-- Footer -->
+          <footer id="footer">
+            <p class="copyright">
+              &copy; 2020 GoanFPV.github.io The data displayed on our website is
+              mostly for educational purpose. The website is hosted on
+              <a href="https://github.com/">GitHub</a>, and the design is based
+              on template from <a href="https://html5up.net">HTML5 UP</a>.
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>
 
-						</div>
-					</div>
-
-				<!-- Sidebar -->
-					<div id="sidebar">
-						<div class="inner">
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Goan FPV</h2>
-									</header>
-									<ul>
-										<li><a href="index.html">Home</a></li>
-										<li>
-											<span class="opener">Training/Workshops</span>
-											<ul>
-												<li><a href="3DPrinting.html#3DprintTraining">3D Printing</a></li>
-												<li><a href="raspberryPi.html#piTraining">Raspberry Pi</a></li>
-												<li><a href="arduino.html#arduinoTraining">Basic Electronics with Arduino</a></li>
-												<li><a href="iot.html#iotTraining">IoT(Internet of Things) with ESP8266</a></li>
-												<li><a href="robotics.html#roboticsTraining">Robotics</a></li>
-											</ul>
-										</li>
-										<li><a href="3DPrinting.html">3D Printing</a></li>
-										<li><a href="raspberryPi.html">Raspberry Pi</a></li>
-										<li><a href="arduino.html">Arduino</a></li>
-										<li><a href="robotics.html">Learn Robotics</a></li>
-										<li><a href="iot.html">IoT(Internet of Things)</a></li>
-										<li><a href="drones.html">Drones/FPV</a></li>
-										<li>
-											<span class="opener">Other Boards/Sensors</span>
-											<ul>
-												<li><a href="intelEdison.html">Intel Edison</a></li>
-												<li><a href="beaglebone.html">Beaglebone</a></li>
-												<li><a href="esp8266.html">ESP8266 and ESP32</a></li>
-											</ul>
-										</li>
-
-										<li><a href="machineLearning.html">Machine Learning</a></li>
-										<li><a href="#" class="button primary large">Enroll for Training</a></li>
-
-									</ul>
-								</nav>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<p>To enroll for a Workshop/Training, click the Enroll button above to fill the form, and we will email you as soon as a Workshop is scheduled. But if you want to get in touch, here is the fastest way ..</p>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href = "mailto: goanFPV@gmail.com">goanFPV@gmail.com</a></li>
-										<li class="icon brands fa-whatsapp"><a href="tel:+919422445498">Zena (942) 244-5498</a></li>
-										<li class="icon solid fa-sms"><a href="sms:+918275330628">(827) 533-0628</a></li>
-										<li class="icon solid fa-home">Margao, Goa, India</li>
-									</ul>
-								</section>
-
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; 2020 GoanFPV.github.io  The data displayed on our website is mostly for educational purpose. The website is hosted on <a href="https://github.com/">GitHub</a>, and the design is based on template from <a href="https://html5up.net">HTML5 UP</a>.</p>
-								</footer>
-
-						</div>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
